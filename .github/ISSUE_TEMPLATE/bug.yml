@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in Phylarium is broken or behaves wrong.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead? A sentence or two is enough.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: What were you doing just before? Skip this if you are not sure.
+      placeholder: |
+        1. Opened the science book
+        2. Started research on ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Open the science book and tap ⚙. The version is under the world stats.
+      placeholder: Phylarium 0.3.1
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 15, Safari / Windows, Chrome / installed app on Android
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video
+      description: Drag files here. Optional, but very helpful.
